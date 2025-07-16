@@ -1,4 +1,5 @@
-weather = input( "What's the weather like today? (sunny/rainy/cold): ").lower()
+weather = input( "What's the weather like today? (sunny/rainy/cold): ")
+weather = weather.lower()
 # Ask the user what the weather is like
 
 # Give clothing advice based on the weather
