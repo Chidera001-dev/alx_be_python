@@ -1,5 +1,5 @@
 #input a positive integer
-positive_integer = int(input(" Enter the size of the pattern: "))
+positive_integer = int(input("Enter the size of the pattern:"))
 
 rows = 0   # start at row 0
 
