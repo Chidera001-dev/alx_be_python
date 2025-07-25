@@ -16,6 +16,7 @@ def main():
             list_name = input("Enter item to add: ")
             shopping_list.append(list_name)
             print(f"'{list_name}' added to your list.")
+
         elif choice == '2':
             list_name = input("Enter item to remove: ")
             if list_name in shopping_list:
@@ -23,10 +24,12 @@ def main():
                 print(f"'{list_name}' removed from your list.")
             else:
                 print(f"'{list_name}' not found in your list.")
+
         elif choice == '3':
             print("\nYour Shopping List:")
             for i, item in enumerate(shopping_list, start=1):
                 print(f"{i}. {item}")
+                
         elif choice == '4':
             print("Goodbye!")
             break
